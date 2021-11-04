@@ -1,0 +1,32 @@
+.header {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.logo__img {
+  width: 224px;
+  margin-right: 32px;
+}
+
+.logo__text {
+  font-size: 144px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1024px) {
+  .logo__img {
+    width: 24vw;
+  }
+
+  .logo__text {
+    font-size: 12vw;
+  }
+}

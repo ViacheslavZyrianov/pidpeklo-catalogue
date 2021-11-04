@@ -1,0 +1,57 @@
+.order-info {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.order-info__text {
+  font-size: 18px;
+}
+
+.order-info__links {
+  display: flex;
+}
+
+.order-info__link {
+  display: block;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 8px;
+  color: #fff;
+  transition: border-radius 0.3s;
+  margin-left: 8px;
+}
+
+.order-info__link_instagram {
+  background: linear-gradient(#5851D8, #833AB4, #C13584, #FD1D1D, #F77737, #FFDC80);
+}
+
+.order-info__link_viber {
+  background-color: #7C529E;
+}
+
+.order-info__link_telegram {
+  background-color: #0088cc;
+}
+
+@media screen and (min-width: 1023px) {
+  .order-info__link:hover {
+    border-radius: 37px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .order-info {
+    flex-direction: column;
+    margin-bottom: 32px;
+  }
+
+  .order-info__text {
+    margin-bottom: 8px;
+  }
+
+  .order-info__link {
+    margin: 0 4px;
+  }
+}

@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  background-color: #2B2E34;
+  color: #fff;
+}
+
+h1, h3, h4 {
+  margin: 0;
+}
+
+.container {
+  display: block;
+  max-width: 992px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0 16px;
+}

@@ -1,0 +1,31 @@
+.products {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.product {
+  width: 224px;
+  margin-bottom: 16px;
+}
+
+.product__img {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.product__title {
+  margin-bottom: 16px;
+}
+
+.product__price {
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+  .product {
+    min-width: 244px;
+    flex: 1;
+  }
+}
